@@ -3,7 +3,7 @@ import { useCart } from "../context/CartContext";
 import axios from "axios";
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe('pk_test_51PSwcqIhhZ6uv6X6w5NV1lqq4HR8jilNWFSAIVKOd01Gf9jhCNAXgCXeiJdjcz4QTNjSHv7aVDyzh1SAa9SfHe2h00ffxmX3fq');
+const stripePromise = loadStripe("pk_test_51T14NwLZ3Qc22CLtD99dmRiEfdIbAdoEW6wCJJz5Gmc4kTB62mO16ZQhMD2ow6W1o8PmmiPPtR3B9NDXqoltO00b00AGefdWmn");
 
 const Cart = () => {
     const { cartItems, decreaseCartItemQuantity, addToCart, clearCart } = useCart();
