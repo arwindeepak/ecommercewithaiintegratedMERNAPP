@@ -74,3 +74,5 @@ app.use("/stripe", stripeRoute);
 app.use("/subscriber", subscriberRoute);
 app.use("/auth", authRouter);
 app.use("/api/ai", aiRoutes);
+
+export default app;
